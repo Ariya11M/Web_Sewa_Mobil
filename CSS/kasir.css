@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #e0f7fa; 
+    color: #333; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    padding-left: 250px; 
+}
+
+/* sideBar */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #263238; 
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.1); 
+    padding-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.sidebar header {
+    font-size: 1.4rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 80px;
+    background-color: #1c313a; 
+    font-weight: bold;
+    letter-spacing: 1px;
+    user-select: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.sidebar li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 60px;
+    padding-left: 30px;
+    line-height: 60px;
+    font-size: 1.1rem;
+    color: #b0bec5; 
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.sidebar ul a:hover {
+    background-color: #37474f; 
+    color: #ffffff; 
+    padding-left: 40px;
+}
+
+
+.daftarTransaksi {
+    margin-top: 30px;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%; 
+}
+
+.daftarTransaksi h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+}
+
+table thead th {
+    background-color: #00796b; 
+    color: #ffffff; 
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #004d40; 
+}
+
+
+table tbody tr {
+    background-color: #e0f2f1; 
+   
+}
+
+table tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #b2dfdb;
+    text-align: center;
+}
+
+
+.tombolProses {
+    background-color: #2196f3; 
+    color: #ffffff; 
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tombolProses:hover {
+    background-color: #1565c0; 
+}
